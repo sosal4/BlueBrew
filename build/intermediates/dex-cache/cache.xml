@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Sosal/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/Sosal/Desktop/BlueBrew/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_0550a1341979fffd212168e2852749650580ed39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sosal/.android/build-cache/abbebe32535ef2003f3dd63a215ad7bc6eb23f5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/Sosal/Desktop/BlueBrew/app/build/intermediates/pre-dexed/debug/classes_8f049f840377da4c57d3201c4c9e89e70c4892fd.jar" />
+    </item>
+
+</items>
