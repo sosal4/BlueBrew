@@ -28,7 +28,7 @@
         android:layout_height="132dp"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bluebrewlogo. This is sakar dahal"
+        app:srcCompat="@drawable/bluebrewlogo"
         tools:layout_editor_absoluteX="80dp" />
 
     <TextView
