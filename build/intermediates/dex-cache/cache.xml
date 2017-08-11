@@ -2,22 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/Sosal/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="0a9cb567dc008f570c28531720168f19148da965">
-        <dex dex="/Users/Sosal/Desktop/BlueBrew/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_0550a1341979fffd212168e2852749650580ed39.jar" />
+        sha1="7d266bdbeaeecd39790222824c86b88123a4e6a7">
+        <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_92f4dc068c719d4ab83b0a938f1724e25d02c24a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/Sosal/.android/build-cache/abbebe32535ef2003f3dd63a215ad7bc6eb23f5f/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
-        <dex dex="/Users/Sosal/Desktop/BlueBrew/app/build/intermediates/pre-dexed/debug/classes_8f049f840377da4c57d3201c4c9e89e70c4892fd.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f33a06d71bca03cf311261552f426f15bc3f9611\classes.dex" />
     </item>
 
 </items>
