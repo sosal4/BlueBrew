@@ -12,12 +12,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\xakR\.android\build-cache\a52da8711e8fa83df813a79bf52f29e0469164c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa0c7f20c2e719cc46a381a0683b1aac8861036e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\xakR\.android\build-cache\b1801b3f3942d44c0b75ca6d82e228320a4f73ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d4a37d7beaa9780c89e22e96242ea6b17b85851\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f33a06d71bca03cf311261552f426f15bc3f9611\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\xakR\.android\build-cache\0f488c2d4aa5438e59a2c8d3a85f64fafcacb350\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\xakR\Videos\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7f481040ae115449b4e0a8a77489dd290daec8b\classes.dex" />
     </item>
 
 </items>
