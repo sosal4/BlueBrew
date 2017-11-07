@@ -3,32 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="254dp"
-        android:layout_height="67dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:text="Hello This is Team BlueBrew. changes made by sakar  नेपालको राष्ट्रिय दैनिक"
-        android:textAlignment="viewStart"
-
-        android:layout_above="@+id/website"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_marginBottom="28dp" />
-
-
-
-    <EditText
-        android:id="@+id/website"
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/reading"
+        android:layout_alignEnd="@+id/reading"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Website"
-
-        android:layout_above="@+id/reading"
-        android:layout_alignEnd="@+id/textView2"
-        android:layout_marginBottom="11dp" />
+        android:text="@string/linktowebsite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/reading"
@@ -36,10 +24,9 @@
         android:layout_height="85dp"
         android:onClick="nd"
         android:text="GoTo Reading Page"
-
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="17dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -49,5 +36,7 @@
         app:srcCompat="@drawable/bluebrewlogo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+
 
 </RelativeLayout>
