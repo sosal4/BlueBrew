@@ -22,7 +22,7 @@
         android:id="@+id/reading"
         android:layout_width="344dp"
         android:layout_height="85dp"
-        android:onClick="nd"
+        android:onClick="xykR"
         android:text="GoTo Reading Page"
         android:layout_marginBottom="17dp"
         android:layout_alignParentBottom="true"
