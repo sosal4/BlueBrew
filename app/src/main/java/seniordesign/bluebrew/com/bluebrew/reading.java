@@ -30,18 +30,21 @@ public class reading extends Activity {
         data = (TextView)findViewById(R.id.data);
         Button click = (Button)findViewById(R.id.button);
 
+        /*
+        //using JSOUP
         click.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 new doit().execute();
             }
-        });
+        });*/
 
 
 
 
-        /*click = (Button) findViewById(R.id.button);
+        //for json class bacstage calling
+        click = (Button) findViewById(R.id.button);
         data = (TextView) findViewById(R.id.data);
 
         click.setOnClickListener(new View.OnClickListener() {
@@ -52,11 +55,13 @@ public class reading extends Activity {
                 process.execute();
 
             }
-        });*/
+        });
 
     }
 
-    public class doit  extends AsyncTask<Void, Void, Void>{
+   /*
+   //jSOUP function
+   public class doit  extends AsyncTask<Void, Void, Void>{
 
         String words;
         @Override
@@ -80,5 +85,5 @@ public class reading extends Activity {
 
         data.setText(words);
         }
-    }
+    }*/
 }

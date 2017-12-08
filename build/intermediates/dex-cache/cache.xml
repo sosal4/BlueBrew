@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\xakR\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.9.1\3dc0a3bea4f876c54846cd050e688f1bfc78fc96\jsoup-1.9.1.jar"
+        jar="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\libs\jsoup-1.11.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3dc0a3bea4f876c54846cd050e688f1bfc78fc96">
-        <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\pre-dexed\debug\jsoup-1.9.1_e5a31ed78af61a44fa8e62e87cdb81b36a6810f6.jar" />
+        sha1="96b3cef0a864a192fc3c8b97bbe922575ef5f432">
+        <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\pre-dexed\debug\jsoup-1.11.2_0e2577234ae17064ca3b7f30421422682ffc3859.jar" />
     </item>
 
 </items>

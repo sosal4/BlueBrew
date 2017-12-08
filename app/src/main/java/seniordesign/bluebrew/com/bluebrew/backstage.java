@@ -34,7 +34,7 @@ public class backstage extends AsyncTask<Void, Void, Void> {
     protected Void doInBackground(Void... params) {
 
         try {
-            URL url = new URL("https://api.myjson.com/bins/f3jc7");
+            URL url = new URL("https://api.myjson.com/bins/ada0n");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -53,10 +53,14 @@ public class backstage extends AsyncTask<Void, Void, Void> {
             for (int i = 0; i<JA.length(); i++){
 
                 JSONObject JO = (JSONObject) JA.get(i);
-                singleParsed = "Name:"+JO.get("name")+"\n"+
-                        "Password:"+JO.get("pw")+"\n"+
-                        "Contact information:"+JO.get("cell")+"\n"+
-                        "Country:"+JO.get("nation")+"\n";
+                singleParsed = "R_ID-------------------------->"+JO.get("R_ID")+"\n"+
+                        "Batchname---------------->"+JO.get("BATCH_NAME")+"\n"+
+                        "DATE-------------------------> "+JO.get("DATE")+"\n"+
+                        "TIME-------------------------->"+JO.get("TIME")+"\n"+
+                        "TEMPERATURE--------->"+JO.get("TEMPERATURE")+"\n"+
+                        "SPECIFIC GRAVITY--->"+JO.get("SPECIFIC_GRAVITY")+"\n";
+
+
 
 
                 dataPrased = dataPrased + singleParsed+ "\n";
