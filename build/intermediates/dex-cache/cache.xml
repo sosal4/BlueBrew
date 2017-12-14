@@ -2,6 +2,24 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\libs\jsoup-1.11.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="96b3cef0a864a192fc3c8b97bbe922575ef5f432">
+        <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.11.2_0e2577234ae17064ca3b7f30421422682ffc3859\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_51684691972bdf5ae143dfed577af3cd98b8065d\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\libs\jsoup-1.11.2.jar"
         jumboMode="false"
@@ -9,6 +27,15 @@
         revision="25.0.3"
         sha1="96b3cef0a864a192fc3c8b97bbe922575ef5f432">
         <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\pre-dexed\debug\jsoup-1.11.2_0e2577234ae17064ca3b7f30421422682ffc3859.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ba7bc5efb54d0ea3d53055b163ef8f15bc3a5c5">
+        <dex dex="C:\Users\xakR\Videos\senior design 2\android project\BlueBrew\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7013bcba99a5b5433e56f8cae08095b5122ab4cb\classes.dex" />
     </item>
 
 </items>

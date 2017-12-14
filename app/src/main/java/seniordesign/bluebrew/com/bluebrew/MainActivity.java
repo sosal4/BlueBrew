@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     //this function helps in link with the reading.java class
     public void xykR(View view) {
 
+
+        //ths function helps linking main activity with the reading class
         Intent intent = new Intent(MainActivity.this, reading.class);
         startActivity(intent);
 

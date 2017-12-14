@@ -15,11 +15,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Created by xakR on 11/11/2017.
+ * Created by sakar on 11/11/2017.
  */
 
-public class backstage extends AsyncTask<Void, Void, Void> {
+public class json_parsed extends AsyncTask<Void, Void, Void> {
 
+    //declaring string variables
     String data="";
     String dataPrased = "";
     String singleParsed = "";
@@ -34,8 +35,10 @@ public class backstage extends AsyncTask<Void, Void, Void> {
     protected Void doInBackground(Void... params) {
 
         try {
-            URL url = new URL("https://api.myjson.com/bins/ada0n");
+            //url linked from where data is being retrieve
+            URL url = new URL("https://api.myjson.com/bins/pptzr");
 
+            //creating new http url connection
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -48,6 +51,8 @@ public class backstage extends AsyncTask<Void, Void, Void> {
 
             }
 
+            //creating new JSON array
+            //this variable is used in parsing data to show records in table form from website
             JSONArray JA = new JSONArray(data);
 
             for (int i = 0; i<JA.length(); i++){
@@ -59,9 +64,6 @@ public class backstage extends AsyncTask<Void, Void, Void> {
                         "TIME-------------------------->"+JO.get("TIME")+"\n"+
                         "TEMPERATURE--------->"+JO.get("TEMPERATURE")+"\n"+
                         "SPECIFIC GRAVITY--->"+JO.get("SPECIFIC_GRAVITY")+"\n";
-
-
-
 
                 dataPrased = dataPrased + singleParsed+ "\n";
 
